@@ -1,0 +1,37 @@
+name: Content Correction
+description: Report incorrect, outdated, or missing content in the community docs.
+title: "[Correction] "
+labels: ["content-correction"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL / 頁面連結
+      placeholder: e.g. https://poe2dictionary.com/community/en/beginner-guide
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What's wrong? / 哪裡有問題？
+      description: Quote the incorrect text or describe what's missing. Screenshots welcome.
+      placeholder: e.g. "The drop rate listed is outdated since patch 0.2.0"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: Suggested correction / 建議修正內容
+      description: What should it say instead? Leave blank if you're not sure.
+    validations:
+      required: false
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / 來源
+      placeholder: e.g. patch notes URL, in-game screenshot
+    validations:
+      required: false

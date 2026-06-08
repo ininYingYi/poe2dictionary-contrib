@@ -1,0 +1,38 @@
+name: Bug Report
+description: Report a broken feature or display issue on poe2dictionary.com.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: input
+    id: page-url
+    attributes:
+      label: Page URL
+      description: Which page has the problem?
+      placeholder: e.g. https://poe2dictionary.com/currency
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug. Screenshots are welcome — drag and drop them here.
+      placeholder: e.g. The search box doesn't respond when I type on mobile.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      placeholder: e.g. Results should filter as I type.
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Browser / Device
+      placeholder: e.g. Chrome 124 on iPhone 15, or Firefox on Windows 11
+    validations:
+      required: false
