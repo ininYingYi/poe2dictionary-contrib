@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 sidebar_label: 簡介
+displayed_sidebar: tutorialSidebar
 ---
 
 # 社群文件（繁體中文）
