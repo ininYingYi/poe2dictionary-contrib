@@ -1,5 +1,0 @@
-{
-  "label": "Community",
-  "customProps": { "zh": "社群", "communitySection": true },
-  "link": { "type": "doc", "id": "community/index" }
-}

@@ -1,0 +1,6 @@
+{
+  "label": "Leagues",
+  "position": 3,
+  "customProps": { "zh": "聯盟" },
+  "link": { "type": "doc", "id": "community/en/leagues/index" }
+}

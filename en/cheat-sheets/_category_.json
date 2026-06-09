@@ -1,0 +1,6 @@
+{
+  "label": "Cheat Sheets",
+  "position": 2,
+  "customProps": { "zh": "懶人包" },
+  "link": { "type": "doc", "id": "community/en/cheat-sheets/index" }
+}

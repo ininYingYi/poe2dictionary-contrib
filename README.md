@@ -79,13 +79,24 @@ Content goes here...
 
 ### Adding images
 
-Place image files in the same folder as `index.md`, then reference them with a relative path:
+Place image files in the same folder as `index.md`. You can use **jpg, png, gif, or webp** — the sync process automatically converts them to compressed WebP on the site.
+
+Reference images using a **relative path**:
 
 ```markdown
+<!-- File: en/beginner-guide/currency-overview.png -->
 ![Currency Overview](./currency-overview.png)
 ```
 
-You can also paste image URLs directly if the image is hosted elsewhere (e.g. a GitHub issue upload).
+Relative paths work in local editors and on GitHub's web preview. The sync process converts `./currency-overview.png` to `./currency-overview.webp` automatically — you don't need to rename the file yourself.
+
+English and Chinese articles can have **different images** — just put different files in `en/` and `zh/` respectively.
+
+If the image is already hosted externally (e.g. a GitHub issue upload or CDN), you can paste the URL directly:
+
+```markdown
+![Currency Overview](https://example.com/image.png)
+```
 
 ---
 
