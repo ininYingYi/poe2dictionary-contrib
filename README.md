@@ -85,6 +85,7 @@ Reference images using a **relative path**:
 
 ```markdown
 <!-- File: en/beginner-guide/currency-overview.png -->
+
 ![Currency Overview](./currency-overview.png)
 ```
 
@@ -110,4 +111,4 @@ If the image is already hosted externally (e.g. a GitHub issue upload or CDN), y
 
 ## License
 
-Contributed content is published under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Contributed content is published under [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/).
